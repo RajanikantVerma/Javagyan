@@ -34,7 +34,7 @@ public class Inventory {
 				}else {
 					int count = 0;
 					while(sumOfInitialDayStock>minimumItem) {
-						long maxItem = 0; 
+						long maxItem = 0;
 						int index = 0;
 						for(int j = 0; j<noOfGoodsType ; j++) {
 							stock[j] = stock[j] + dailyIncoming[j];

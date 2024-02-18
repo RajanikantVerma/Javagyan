@@ -1,9 +1,9 @@
 package com.javagyan.LinkedList;
 
 public class DoublyLinkedList {
-	
+
 	DoublyLinkedNode head;
-	
+
 	public void insertAtHead(int data) {
 		DoublyLinkedNode node = new DoublyLinkedNode(data);
 		node.setNextNode(this.head);
@@ -12,10 +12,10 @@ public class DoublyLinkedList {
 		}
 		this.head = node;
 	}
-	
+
 	public int count() {
 		DoublyLinkedNode current = this.head;
-		
+
 		int count =0;
 		while(current!= null) {
 			count ++;
@@ -27,7 +27,7 @@ public class DoublyLinkedList {
 	@Override
 	public String toString() {
 		DoublyLinkedNode current = this.head;
-		
+
 		String s = "{ ";
 		while(current != null) {
 			s+= current.toString() + ", ";
@@ -36,7 +36,7 @@ public class DoublyLinkedList {
 		s+= "}";
 		return s;
 	}
-	
+
 	public void removeAtHead() {
 		this.head = this.head.getNextNode();
 	}

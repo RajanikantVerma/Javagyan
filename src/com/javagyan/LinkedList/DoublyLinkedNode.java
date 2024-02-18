@@ -1,11 +1,11 @@
 package com.javagyan.LinkedList;
 
 public class DoublyLinkedNode {
-	
+
 	int data;
 	DoublyLinkedNode nextNode;
 	DoublyLinkedNode prevNode;
-	
+
 	public DoublyLinkedNode(int data) {
 		this.data = data;
 	}
@@ -38,7 +38,7 @@ public class DoublyLinkedNode {
 	public void setPrevNode(DoublyLinkedNode prevNode) {
 		this.prevNode = prevNode;
 	}
-	
-	
+
+
 
 }

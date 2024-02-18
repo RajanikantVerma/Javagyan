@@ -1,7 +1,7 @@
 package com.javagyan.recurrsion;
 
 public class TowerOfHanoi {
-	
+
 	public void move(int numberOfDisc , char from , char to , char intern) {
 		if(numberOfDisc == 1) {
 			System.out.println("moving disc : " + 1 + " from : " + from + " to : "+  to);

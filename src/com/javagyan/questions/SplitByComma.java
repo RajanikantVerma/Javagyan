@@ -1,19 +1,18 @@
 package com.javagyan.questions;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.StringTokenizer;
 
 public class SplitByComma {
-	
+
 	public static void main(String[] args) {
 		String s = "ab,test,try,ab,try,you,chamgadah,motki,motki,ab,test,test,boy,chamgadah";
 		StringTokenizer sb = new StringTokenizer(s,",");
 		String sorted = "";
 		String prev = "";
-		Map<String,Integer> map = new LinkedHashMap<String,Integer>();
+		Map<String,Integer> map = new LinkedHashMap<>();
 		int count = 1;
 		while(sb.hasMoreElements()) {
 			String ss = sb.nextToken();

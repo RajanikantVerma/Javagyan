@@ -15,7 +15,7 @@ public class Node {
 	public void setNextNode(Node nextNode) {
 		this.nextNode = nextNode;
 	}
-	
+
 	public Node(int data) {
 		this.data = data;
 	}
@@ -23,7 +23,7 @@ public class Node {
 	public String toString() {
 		return "Node [data=" + data  + "]";
 	}
-	
-	
+
+
 
 }

@@ -13,12 +13,12 @@ public class LinkedListDemo {
 
 		System.out.println(list.toString());
 		System.out.println(list.count());
-		
+
 		list.removeAtHead();
 
 		System.out.println(list.toString());
 		System.out.println(list.count());
-		
+
 
 		System.out.println(list.found(71));
 		System.out.println(list.found(7));

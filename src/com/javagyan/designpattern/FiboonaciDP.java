@@ -1,20 +1,20 @@
 package com.javagyan.designpattern;
 
-import java.util.Scanner;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class FiboonaciDP {
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		System.out.println(fibbonaci(n));
 		sc.close();
-		
+
 	}
 
 	private static int fibbonaci(int n) {
-		return fibbonaci(n, new HashMap<Integer,Integer>());
+		return fibbonaci(n, new HashMap<>());
 	}
 
 	private static int fibbonaci(int n, HashMap<Integer, Integer> map) {

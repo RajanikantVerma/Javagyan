@@ -1,9 +1,7 @@
 package com.javagyan.algorithm;
 
-import java.util.Arrays;
-
 public class BubbleSort {
-	
+
 	/*
 	 * In bubblesort, we first compare consucative elements i.e, first we will
 	 * comapare with 0th elememth to 1st , 1st to 2nd and so on will switch the
@@ -22,7 +20,7 @@ public class BubbleSort {
 			}
 		}
 		for(int i : arr) {
-		  System.out.println(i);	
+		  System.out.println(i);
 		}
 	}
 
